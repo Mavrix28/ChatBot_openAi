@@ -4,7 +4,7 @@
 
 A Q&A chatbot built with Streamlit, LangChain, and OpenAI GPT models that provides instant answers to user queries. This project leverages a user-friendly interface for seamless interactions and dynamic configuration of chatbot settings.
 
- Features
+#  Features
 	•	Interactive Chatbot UI: Simple and elegant interface with Streamlit.
 	•	GPT Models: Supports gpt-4 and gpt-3.5-turbo for high-quality responses.
 	•	Customizable Settings:
@@ -13,7 +13,15 @@ A Q&A chatbot built with Streamlit, LangChain, and OpenAI GPT models that provid
 	•	Error Handling: Graceful handling of API and user input errors.
 	•	Extendable: Easily modify the prompt template or UI for custom use cases.
 
- Prerequisites
+ # Prerequisites
 	1.	Python 3.8 or higher
 	2.	OpenAI API Key (Get yours here)
 	3.	Install the required dependencies using the requirements.txt file.
+
+ #Configuration
+
+Sidebar Options:
+	•	OpenAI API Key: Securely input your OpenAI API key.
+	•	LLM Model: Choose between gpt-4 and gpt-3.5-turbo.
+	•	Temperature: Adjust creativity in responses (range: 0.0 to 1.0).
+	•	Max Tokens: Set the maximum length of the response.
